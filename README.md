@@ -95,23 +95,24 @@ These insights help stakeholders make data-driven business decisions.
 
 data-warehouse-project/
 │
-├── datasets/ # Raw ERP & CRM CSV files
-├── docs/ # Documentation & diagrams
-│ ├── etl.drawio
-│ ├── data_architecture.drawio
-│ ├── data_catalog.md
-│ ├── data_flow.drawio
-│ ├── data_models.drawio
-│ ├── naming-conventions.md
+├── datasets/                  # Raw ERP & CRM CSV files
 │
-├── scripts/ # SQL scripts
-│ ├── bronze/
-│ ├── silver/
-│ ├── gold/
+├── docs/                      # Documentation & diagrams
+│   ├── etl.drawio
+│   ├── data_architecture.drawio
+│   ├── data_catalog.md
+│   ├── data_flow.drawio
+│   ├── data_models.drawio
+│   ├── naming-conventions.md
 │
-├── tests/ # Test & data quality checks
-├── README.md
-├── LICENSE
-├── .gitignore
-└── requirements.txt
-
+├── scripts/                   # SQL scripts
+│   ├── bronze/                # Raw data ingestion
+│   ├── silver/                # Data cleansing & transformation
+│   ├── gold/                  # Analytics-ready models
+│
+├── tests/                     # Test & data quality checks
+│
+├── README.md                  # Project overview
+├── LICENSE                    # License information
+├── .gitignore                 # Git ignored files
+└── requirements.txt           # Project requirements
