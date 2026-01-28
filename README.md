@@ -93,3 +93,25 @@ These insights help stakeholders make data-driven business decisions.
 
 ## 📂 Repository Structure
 
+data-warehouse-project/
+│
+├── datasets/ # Raw ERP & CRM CSV files
+├── docs/ # Documentation & diagrams
+│ ├── etl.drawio
+│ ├── data_architecture.drawio
+│ ├── data_catalog.md
+│ ├── data_flow.drawio
+│ ├── data_models.drawio
+│ ├── naming-conventions.md
+│
+├── scripts/ # SQL scripts
+│ ├── bronze/
+│ ├── silver/
+│ ├── gold/
+│
+├── tests/ # Test & data quality checks
+├── README.md
+├── LICENSE
+├── .gitignore
+└── requirements.txt
+
